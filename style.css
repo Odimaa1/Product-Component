@@ -12,6 +12,7 @@ body {
     background-color: var(--body);
     font-family: "Monserrat", sans-serif;
     height: 100vh;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     display: grid; 
@@ -129,13 +130,15 @@ main{
     }
     .pics{
         width: 100%;
-        width: 342px;
-        max-width: 90%;
+        /* width: 342px; */
+        /* max-width: 90%; */
     }
     main{
         display: block;
-        height: 500px;
-        width: 343px;
+        /* height: 500px; */
+        /* width: 343px; */
+        width: 90%;
+        margin: auto;
     }
     .text{
         width: 100%;
